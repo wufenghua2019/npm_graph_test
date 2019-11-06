@@ -9,6 +9,6 @@
     "test": "make test"
   },
   "devDependencies": {
-    "babel": "0.0.1-security"
+    "bqbel": "0.0.1-security"
   }
 }
