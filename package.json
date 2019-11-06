@@ -9,6 +9,6 @@
     "test": "make test"
   },
   "devDependencies": {
-    "bqbel": "0.0.1-security"
+    "slow-zone": "2.0.3"
   }
 }
