@@ -1,5 +1,5 @@
 {
-  "name": "slow-zone",
+  "name": "p-limit",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -9,6 +9,6 @@
     "test": "make test"
   },
   "devDependencies": {
-    "slow-zone": "2.0.3"
+    "p-limit": "2.2.1"
   }
 }
