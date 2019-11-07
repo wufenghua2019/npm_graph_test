@@ -1,5 +1,5 @@
 {
-  "name": "winston",
+  "name": "@fdmg/ab",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -9,6 +9,6 @@
     "test": "make test"
   },
   "devDependencies": {
-    "winston": "3.2.1"
+    "@fdmg/ab": "1.0.3"
   }
 }
