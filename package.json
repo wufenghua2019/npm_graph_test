@@ -1,5 +1,5 @@
 {
-  "name": "@fdmg/ab",
+  "name": "superagent",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -9,6 +9,6 @@
     "test": "make test"
   },
   "devDependencies": {
-    "@fdmg/ab": "1.0.3"
+    "superagent": "5.1.0"
   }
 }
