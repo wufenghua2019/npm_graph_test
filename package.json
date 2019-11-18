@@ -1,6 +1,6 @@
 {
   "name": "testnpm",
   "dependencies": {
-    "simplesamlphp": "1.6.1"
+    "strapi": "1.5.0"
   }
 }
