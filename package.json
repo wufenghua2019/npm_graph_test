@@ -8,7 +8,7 @@
     "lint": "make lint",
     "test": "make test"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "*"
   }
 }
