@@ -1,6 +1,12 @@
 {
   "name": "testnpm",
   "dependencies": {
-    "strapi": "1.5.0"
-  }
+    "strapi": "2.0.1",
+    "snyk": "^1.248.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
