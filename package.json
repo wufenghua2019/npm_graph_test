@@ -1,5 +1,5 @@
 {
-  "name": "superagent",
+  "name": "@babel/core",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -9,6 +9,6 @@
     "test": "make test"
   },
   "devDependencies": {
-    "superagent": "1.1.0"
+    "@babel/core": "*"
   }
 }
