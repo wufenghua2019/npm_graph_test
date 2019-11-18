@@ -1,13 +1,5 @@
 {
-  "name": "@babel/core",
-  "private": true,
-  "license": "MIT",
-  "scripts": {
-    "build": "make build",
-    "fix": "make fix",
-    "lint": "make lint",
-    "test": "make test"
-  },
+  "name": "testnpm",
   "dependencies": {
     "@babel/core": "*"
   }
