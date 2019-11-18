@@ -1,0 +1,76 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - strapi > koa-session > debug:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > socket.io > debug:
+        patched: '2019-11-18T07:41:24.746Z'
+  'npm:hoek:20180212':
+    - strapi > strapi-generate-users > purest > request > hawk > hoek:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > grant-koa > grant > request > hawk > hoek:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > grant-koa > grant > request > hawk > boom > hoek:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > grant-koa > grant > request > hawk > sntp > hoek:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-users > purest > request > hawk > sntp > hoek:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-users > purest > request > hawk > boom > hoek:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-users > purest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > grant-koa > grant > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-18T07:41:24.746Z'
+  'npm:lodash:20180130':
+    - strapi > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-email > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-admin > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-api > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > waterline-graphql > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-new > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-upload > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-users > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > sails-disk > waterline-cursor > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > sails-disk > waterline-criteria > lodash:
+        patched: '2019-11-18T07:41:24.746Z'
+  'npm:minimatch:20160620':
+    - strapi > koa-load-middlewares > findup-sync > glob > minimatch:
+        patched: '2019-11-18T07:41:24.746Z'
+  'npm:ms:20170412':
+    - strapi > koa-session > debug > ms:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-users > jsonwebtoken > ms:
+        patched: '2019-11-18T07:41:24.746Z'
+  'npm:ms:20151024':
+    - strapi > herd > ms:
+        patched: '2019-11-18T07:41:24.746Z'
+  'npm:request:20160119':
+    - strapi > grant-koa > grant > request:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-users > purest > request:
+        patched: '2019-11-18T07:41:24.746Z'
+  'npm:tunnel-agent:20170305':
+    - strapi > grant-koa > grant > request > tunnel-agent:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > strapi-generate-users > purest > request > tunnel-agent:
+        patched: '2019-11-18T07:41:24.746Z'
+  'npm:ws:20160920':
+    - strapi > socket.io > engine.io > ws:
+        patched: '2019-11-18T07:41:24.746Z'
+    - strapi > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2019-11-18T07:41:24.746Z'
