@@ -134,7 +134,7 @@
 "lcid":"1.0.0",
 "load-json-file":"1.1.0",
 "lodash":"3.10.1",
-"lodash":"4.17.11",
+"lodash":"4.17.15",
 "lodash.isfunction":"3.0.9",
 "lodash.isplainobject":"4.0.6",
 "lodash.isregexp":"4.0.1",
