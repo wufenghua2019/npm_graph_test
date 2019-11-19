@@ -1,6 +1,32 @@
 {
-  "name": "testnpm",
-  "dependencies": {
-    "strapi": "1.5.0"
-  }
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "api testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"dependencies": {
+	"accepts":"1.3.5",
+"agent-base":"4.2.1",
+"ajv":"6.7.0",
+"ansi-regex":"2.1.1",
+"array-flatten":"1.1.1",
+"asn1":"0.2.4",
+"assert-plus":"1.0.0",
+"async":"2.6.1",
+"asynckit":"0.4.0",
+"atob":"2.1.2",
+"aws4":"1.8.0",
+"aws-sign2":"0.7.0",
+"axios":"0.18.0",
+"bail":"1.0.3",
+"bcrypt-pbkdf":"1.0.2",
+"body-parser":"1.18.3",
+"builtin-modules":"1.1.1",
+"bytes":"3.0.0"
+
+},
+  "author": "",
+  "license": "ISC"
 }
