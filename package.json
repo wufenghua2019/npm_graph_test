@@ -8,8 +8,8 @@
   },
 "dependencies": {
 	"@sentry/node":"4.6.3",
-"@slack/events-api":"2.1.1",
-"@slack/interactive-messages":"1.1.1",
+"@slack/events-api":"3.0.1",
+"@slack/interactive-messages":"2.0.2",
 "atob":"2.1.2",
 "axios":"0.18.0",
 "change-case":"3.0.2",
